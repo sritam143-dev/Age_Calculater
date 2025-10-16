@@ -1,0 +1,44 @@
+*
+{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    background:linear-gradient(to right,#1abc9c,#3498db) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box
+{
+    width: fit-content;
+    border: 3px solid cyan;
+    box-shadow: 0px 0px 15px cyan,0px 0px 15px cyan inset ;
+    padding: 40px;
+    background-color: rgba(25, 17, 17, 0.233);
+   
+}
+input
+{
+    padding: 10px;
+    border-radius: 5px;
+}
+h1
+{
+    color: hotpink;
+}
+input[type="button"]
+{
+    background-color: bisque;
+
+}
+label{
+    color: darkred;
+}
